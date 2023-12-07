@@ -245,7 +245,7 @@ function App() {
     } else {
       setSnackbar({
         open: true,
-        text: `Successfully updated session ${data.title}`,
+        text: `Successfully updated/created session ${data.title}`,
         severity: "success"
       });
       dispatch(updateSession(data));
