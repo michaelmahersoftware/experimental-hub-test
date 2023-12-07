@@ -52,7 +52,7 @@ export const integerToDateTime = (integerDate: number) => {
 };
 
 export const getTotalBox = (boxes: Box[]): Box => {
-  //this method will get Total ss Box.
+  //this method will get Total Box 123.
   let minX = Infinity;
   let minY = Infinity;
   let maxX = -Infinity;
